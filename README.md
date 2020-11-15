@@ -8,5 +8,5 @@ This is the curriculum repo for the Python Full Stack Bootcamp starting on Novem
 
 ## Course Information
 
-For more info about the course, see the [week 0 docs](./0\ Intro).
+For more info about the course, see the [week 0 docs](./0%20Intro).
 
