@@ -10,7 +10,7 @@ This is the curriculum repo for the Python Full Stack Bootcamp starting on Novem
 
 
 * Start date: Nov. 16, 2020	
-* End date: April 2, 2020
+* End date: April 2, 2021
 * Time: 6:00 pm - 9:36 pm	
 * Days: Monday - Friday
 
