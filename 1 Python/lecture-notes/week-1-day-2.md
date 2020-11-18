@@ -1,4 +1,4 @@
-The following is inspired by, and in some parts taken from, a famous computer science textbook [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-9.html).
+The following is inspired by, and in some parts taken from, a famous computer science textbook [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7).
 
 ## Wishful Thinking
 
