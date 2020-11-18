@@ -40,10 +40,16 @@ Allow the user to make an unlimited number of guesses using a `while True` and `
 
 Tell the user whether their guess is above ('too high!') or below ('too low!') the target value.
 
-## Version 4 (optional)
+## Version 4
 
 Tell the user whether their current guess is closer than their last. This can be done by maintaining a variable containing the last guess outside the loop, then comparing the last guess to the current guess, and check if it's closer. Hint: you're interested in comparing the two absolute differences: `abs(current_guess-target)` and `abs(last_guess-target)`.
 
-## Version 5 (optional)
+## Version 5
 
 Swap the user with the computer: the user will pick a number, and the computer will make random guesses until they get it right.
+
+## Version 6 
+
+Same as version 5, but now the computer should make "optimal" guesses instead of random guesses. Essentially, the computer should go to the halfway point each time. For example, if the range is 1 to 100, and the correct answer is 99, the computer will first guess 50, then 75, then 88, then 94, etc...
+
+Hint: keep track of a "minimum" and a "maximum" possible value. If the guess is too low, you have a new minimum. If the guess is too high, you have a new maximum. You can make new guesses based off of the current minimum and maximum value. Try averaging the guess with the min/max to get a new guess.
