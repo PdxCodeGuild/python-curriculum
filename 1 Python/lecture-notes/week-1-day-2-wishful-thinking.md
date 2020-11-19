@@ -1,3 +1,5 @@
+# Week 1, day 2
+
 The following is inspired by, and in some parts taken from, a famous computer science textbook [Structure and Interpretation of Computer Programs](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-10.html#%_sec_1.1.7).
 
 ## Wishful Thinking
@@ -23,7 +25,7 @@ def sqrtIter(guess, x):
 
 def isGoodEnough(guess, x):
     difference = x - guess**2
-    return -0.001 < difference < 0.001
+    return -0.001 < difference < 0.001 # we also saw a version using absolute value: return abs(difference) < 0.001
 
 def improve(guess, x):
     return average(x / guess, guess)
