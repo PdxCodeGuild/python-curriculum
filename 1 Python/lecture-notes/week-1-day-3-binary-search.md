@@ -33,6 +33,7 @@ Key points:
     * this wouldn't have happened in the recursive solution, because there were no assignment statements
   * the mutation of variables is often a source of bugs
   * "functional programming" seeks to eliminate mutations, favors recursion over loops
+    * the functional programming community has had growing momentum for about 50 years now, but still not quite the mainstream
 
 ## Git
 
