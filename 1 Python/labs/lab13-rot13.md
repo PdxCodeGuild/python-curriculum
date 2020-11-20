@@ -21,3 +21,5 @@ Allow the user to input the amount of rotation used in the encryption / decrypti
   * example: `ord('a') -> 97`
   * example: `chr(97) -> 'a'`
 * modulus operator (`%`) might come in handy for wrapping numbers around
+* `str.isalpha()` can be used to tell if a character is an alphabet character or not
+  * this can be useful for skipping over punctuation, whitespace characters, etc.
