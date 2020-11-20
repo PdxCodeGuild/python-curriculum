@@ -23,3 +23,21 @@ Allow the user to input the amount of rotation used in the encryption / decrypti
 * modulus operator (`%`) might come in handy for wrapping numbers around
 * `str.isalpha()` can be used to tell if a character is an alphabet character or not
   * this can be useful for skipping over punctuation, whitespace characters, etc.
+
+## Extra Credit
+
+Instead of prompting the user for input, pass the input data as an argument to the script
+
+For example, the `cd` command doesn't ask the user for input, but rather you pass the argument to the program itself: `cd <directory-name>`
+
+Example:
+
+```
+$ python3 rot-cipher.py "abcdefg"
+nopqrst
+
+$ python3 rot-cipher.py "hello good sir" --shift_amount=1
+ifmmp hppe tjs
+```
+
+Use the `argparse` module to parse command line arguments. Check out the officla [Argparse Tutorial](https://docs.python.org/3/howto/argparse.html) to learn how.
