@@ -9,6 +9,15 @@ Write a program that prompts the user for a string, and encodes it with ROT13. F
 | ROT+13  | n| o| p| q| r| s| t| u| v| w| x| y| z| a| b| c| d| e| f| g| h| i| j| k| l| m|
 
 
-## Version 2 (optional)
+## Version 2
 
 Allow the user to input the amount of rotation used in the encryption / decryption.
+
+## Hints
+
+* Characters in a computer are encoded as numbers, the main encoding scheme is called ASCII (American Standard Code for Information Interchange)
+  * ASCII table can be found here: https://www.asciitable.com/
+* Python provides functions for converting a character to its ASCII value (`ord`), as well as converting an integer to a character (`chr`)
+  * example: `ord('a') -> 97`
+  * example: `chr(97) -> 'a'`
+* modulus operator (`%`) might come in handy for wrapping numbers around
