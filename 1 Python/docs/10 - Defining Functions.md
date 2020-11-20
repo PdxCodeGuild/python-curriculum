@@ -198,3 +198,12 @@ print(a(5,4)) # 9
 s = lambda x,y: x-y
 print(s(5,4)) # 1
 ```
+
+The interesting thing about lambdas, however, is that you can write them in-line inside of an expression.
+
+For example, to square a list of numbers:
+
+```
+>>> list(map(lambda x: x**2, [1,2,3,4]))
+[1, 4, 9, 16]
+```
