@@ -25,5 +25,5 @@ We also played around with writing shell scripts, as well as discussed various a
   * passing command line arguments to python programs using the `argparse` module
   * discussed a bit about the [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
     * namely, passing arguments and redirecting I/O instead of writing programs that prompt for input
-      * programs that prompt for input usually are harder to connect with other programs, and incorporate into scripts
+      * programs that prompt for input usually are harder to connect with other programs and incorporate into scripts
   * discussed the importance of becoming comfortable on the command line
