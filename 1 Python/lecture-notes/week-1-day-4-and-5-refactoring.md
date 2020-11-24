@@ -21,6 +21,7 @@ We also played around with writing shell scripts, as well as discussed various a
     * you will often need to add new directories to your PATH when installing new tools
     * you can add your own directory to your PATH where you can put your own custom scripts
   * using the `cat` command to print the contents of a file
+  * using `chmod +x` to change the permissions of a file to make a script file "executable"
   * passing command line arguments to python programs using the `argparse` module
   * discussed a bit about the [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy)
     * namely, passing arguments and redirecting I/O instead of writing programs that prompt for input
