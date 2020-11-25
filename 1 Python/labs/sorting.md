@@ -19,7 +19,7 @@ Include the following in your presentation:
 
 ## List of Algorithms
 
-Wikipedia has a pretty good [page on sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm). For visualization, visualgo.net is pretty good. Although it doesn't have all sorting algorithms, it has the most common ones. Also check out [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg) which is an awesome visualization video (with epic sound effects).
+Wikipedia has a pretty good [page on sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm). For visualization, visualgo.net is pretty good. Although it doesn't have all sorting algorithms, it has the most common ones. Also check out [15 Sorting Algorithms in 6 Minutes](https://www.youtube.com/watch?v=kPRA0W1kECg) which is an awesome visualization video (with epic sound effects). Also check out [visualgo](https://visualgo.net/en/sorting) for visualizations and pseudocode.
 
 **Note**: since sorting is such a common and classic computer science problem, it is incredibly easy to find the solution online. Please try your best to avoid copying code while looking up how the sort works.
 
