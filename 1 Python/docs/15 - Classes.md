@@ -46,7 +46,7 @@ print(p.y) # 2
 print(type(p)) # Point
 ```
 
-If you tried to do this with dictionaries, every time you'd want to refer to the member variables `x` and `y`, you'd have to write `p['x']` and `p['y']`. If you used lists, you'd have to refer ambiguously to `p[0]` and `p[1]`. You'd also have no way of checking the type, or attaching functions to the object.
+If you did this with dictionaries, every time you'd want to refer to the member variables `x` and `y`, you'd write `p['x']` and `p['y']`. If you used lists, you'd have to refer ambiguously to `p[0]` and `p[1]`.
 
 ```python
 import math
@@ -66,6 +66,16 @@ p2 = [8, 4]
 print(distance(p1, p2))
 ```
 
+Up until now, this is what we have been doing. We've created data structures as well as functions to operate on those data structures. This is known as "Procedural Programming", which is a style popularized in the 1950s, and still widely used today. 
+
+### Brief Historical Tangent
+
+"Procedure" is basically another word for "function" in the computer science world. The name "Procedural Programming" hints at the idea that the procedure (aka function) is the core concept. It's crazy to think that there was a time when procedures weren't used, but it's true! There was a time when the concept of a procedure wasn't fully established/popularized, and so many programs were implemented without them!
+
+Flash-forward to the 1970's, and now "Object Oriented Programming" (OOP) starts gaining popularity. Now the emphasis is placed on "objects" instead of procedures.
+A key idea of OOP is that procedures should be grouped with the data structures they operate on. This grouping of procedures/data makes up what OOP programmers call "objects".
+
+Keep in mind there are several other paradigms as well, such as Logic Programming and Functional Programming. We may discuss more about those another time!
 
 ## Methods
 
