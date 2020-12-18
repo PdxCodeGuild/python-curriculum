@@ -75,7 +75,9 @@ Up until now, this is what we have been doing. We've created data structures as 
 Flash-forward to the 1970's, and now "Object Oriented Programming" (OOP) starts gaining popularity. Now the emphasis is placed on "objects" instead of procedures.
 A key idea of OOP is that procedures should be grouped with the data structures they operate on. This grouping of procedures/data makes up what OOP programmers call "objects".
 
-Keep in mind there are several other paradigms as well, such as Logic Programming and Functional Programming. We may discuss more about those another time!
+Object-Oriented Programming dominated, especially throughout the 90s with creation of Java. Some say OOP is still the most popular style today. However, there is undoubtedly a growing pushback against the mainstream, and we see other styles being used more and more. For example, we see a "simpler is better" philosophy out of langues like Go, which doesn't included classes as at, hearkening back to a simpler time where procedural programming dominated. We also see a rise of Functional Programming, with languages like Clojure, Elm, Ocaml/ReasonML, Haskell, Rust and even aspects of JavaScript bringing evermore FP concepts to the mainstream.
+
+One thing to take away from all of this: the software industry is fairly trendy, often going in cycles like fashion. "What's old is new again" is a phrase you will hear a lot. My advice: take dogmatic claims with a grain of salt, keep learning new things, and you will make up your own mind about what styles you prefer. More importantly, you will come to see the pros/cons of the styles, and you will be able to "pick the right tool for the job".
 
 ## Methods
 
