@@ -268,6 +268,17 @@ class Child(ParentA, ParentB):
 c = Child()
 ```
 
+### Accessing private variables/methods from parent class
+
+To access the private methods or variables from a parent class (from within the child class), there is a special syntax.
+
+```python
+class Child(Parent):
+    def bar(self):
+        self._Parent__private()
+```
+
+In the above example, Child inherits from Parent. Parent has a private method called `private` that we want to call from within child. We do that by saying `self._Parent__private()`.
 
 ## Dunder Methods
 
