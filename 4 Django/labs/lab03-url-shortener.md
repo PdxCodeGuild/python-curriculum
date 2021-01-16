@@ -11,10 +11,21 @@ Your app should contain the following:
 
 - **Model**: a model `ShortenedURL` which has the following fields `code` (CharField), `url` (URLField) 
 - **View 1** returns a page for entering in a url to be shortened, and a list of urls that have been shortened (`localhost:8000/shortener/`)
-- **View 2** for receiving the form submission containing the long url, generating a random string, and saving it to the database (`localhost:8000/shortener/save/`)
+- **View 2** for receiving the form submission containing the long url, generating a hash code from the submitted url, and saving the code and url to the database (`localhost:8000/shortener/save/`)
 - **View 3** performs the redirecting, which takes a `code` as a parameter (`localhost:8000/shortener/pEc4vt/`). Be sure to include the protocol ("https://") in the urls or redirecting will not work properly.
 
+To generate the hash code, use one of python's built-in hash functions:
 
+```python
+# example of hashing a url
+import zlib
+
+url = "http://google.com"
+byte_str = bytes(url, 'utf8')
+hash_code = zlib.adler32(byte_str)
+
+# hash_code -> 942868035
+```
 
 ![url_shortener](django_url_shortener.png)
 
