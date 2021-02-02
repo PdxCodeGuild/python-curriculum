@@ -121,7 +121,7 @@ myDog.bark(); // logs 'ruff'
 
 ### Object prototypes
 
-The other way to create objects in JavaScript is to use the prototype system directly. This is more complicated and much more awkward, but you will see it often in the wild, so it's knowing and recognizing.
+The other way to create objects in JavaScript is to use the prototype system directly. This is more complicated and much more awkward, but you will see it often in the wild, so it's knowing and recognizing. It's also important to know (although we won't be covering it much in this course) that prototypal inheritance has some advantages over class-based inheritance (such as dynamically inheriting from other objects directly, instead of statically from another class), and so this method isn't all bad. But if you are just using it to simulate class-based inheritance, you should probably just use the class keyword like in the above example. 
 
 ```javascript
 function Animal(legs) {
